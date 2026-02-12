@@ -1,0 +1,16 @@
+{
+  "eventEndpoint": "http://localhost:8888/events",
+  "snapshotEndpoint": "http://localhost:8888/snapshots",
+  "samplingConfig": {
+    "mouseMove": false,
+    "mouseInteractions": {
+      "click": true,
+      "doubleClick": true,
+      "focus": true,
+      "blur": true
+    },
+    "inputStrategy": "last"
+  },
+  "snapshotInterval": 10,
+  "authToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEyMywiZW1haWwiOiJ1c2VyQGVtYWlsLmNvbSIsImlzcyI6Im1vbml0b3JtZS1zZXJ2aWNlIiwic3ViIjoibW9uaXRvcm1lIiwiZXhwIjoxNzM2MzY3NTAxLCJuYmYiOjE3MzM3NzU1MDEsImlhdCI6MTczMzc3NTUwMSwianRpIjoiNDk4YjIwMDUtNGEzZi00NzkwLWE3NWYtNGUyZTYxZjU4NDczIn0.iMqfXTQEuQ5uJ_jsMYMprHsejxHOMoFyA_sh9-5HxZs"
+}

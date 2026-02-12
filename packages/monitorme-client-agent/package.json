@@ -1,0 +1,16 @@
+{
+  "name": "session-event-tracker",
+  "version": "1.0.0",
+  "description": "A session event tracker that uses rrweb to record and send session data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehdi Akiki",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-intercept": "^2.4.0",
+    "rrweb": "^2.0.0-alpha.4",
+    "uuid": "^10.0.0"
+  }
+}

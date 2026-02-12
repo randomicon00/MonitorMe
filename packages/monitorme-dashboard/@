@@ -1,0 +1,65 @@
+~/Documents/finishing/monitorme-ui/..
+  .git
+  ★ components
+    ★ charts
+     ★ Button.tsx
+     ★ Card.tsx
+     ★ DetailRow.tsx
+     ★ EventDetails.tsx
+     ★ Layout.tsx
+     ★ NotFound.tsx
+     ★ PageHeader.tsx
+     ★ ProfileHeader.tsx
+     ★ RRWebPlayer.tsx
+     ★ SearchAndProfile.tsx
+     ★ SearchBar.tsx
+     ★ SettingsForm.tsx
+     ★ SignInForm.tsx
+     ★ SpanDetails.tsx
+     ★ SplashScreen.tsx
+     ★ Table.tsx
+     ★ Table_old.tsx
+  ★ data
+  ✗  ★ pages
+     ★ api
+    ★ segments
+    ★ session_replay
+    ★ sessions
+       ★ [id].tsx
+     ★ 404.tsx
+     ✗ _app.tsx
+     ★ _document.tsx
+     ★ events.tsx
+     ★ help.tsx
+     ✗ index.tsx
+     ★ issues.tsx
+     ★ privacy.tsx
+     ★ segments.tsx
+     ★ sessions.tsx
+     ★ settings.tsx
+     ★ signin.tsx
+     ★ spans.tsx
+     ★ trigger_routes.tsx
+  ✗  ★ public
+  ✗  styles
+  ★ types
+  ★ utils
+   .eslintrc.json
+   .gitignore
+   ★ .prettierrc.json
+   ★ finishing_old.md
+   next-env.d.ts
+   ✗ next.config.js
+   ★ notes_old.md
+   ★ package-lock.json
+   ✗ package.json
+   ★ postcss.config.js
+   ✗ README.md
+   ★ start.sh
+   ★ tailwind.config.js
+   ★ testpagination_old.tsx
+   ★ texts.md
+   ★ tobedeleted_old.tsx
+   ✗ tsconfig.json
+   ★ urgent notes_old.md
+   ✗ yarn.lock

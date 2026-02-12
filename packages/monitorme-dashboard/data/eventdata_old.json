@@ -1,0 +1,780 @@
+[
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 219,
+                    "y": 294,
+                    "id": 58,
+                    "timeOffset": -245
+                },
+                {
+                    "x": 337,
+                    "y": 261,
+                    "id": 58,
+                    "timeOffset": -192
+                },
+                {
+                    "x": 504,
+                    "y": 252,
+                    "id": 58,
+                    "timeOffset": -139
+                }
+            ]
+        },
+        "timestamp": 1728683159677
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 24,
+                    "y": 226,
+                    "id": 58,
+                    "timeOffset": 0
+                }
+            ]
+        },
+        "timestamp": 1728683698486
+    },
+    {
+        "type": 4,
+        "data": {
+            "href": "http://localhost:3000/",
+            "width": 1062,
+            "height": 314
+        },
+        "timestamp": 1728683698988
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 320,
+                    "y": 251,
+                    "id": 58,
+                    "timeOffset": -448
+                },
+                {
+                    "x": 568,
+                    "y": 306,
+                    "id": 58,
+                    "timeOffset": -396
+                }
+            ]
+        },
+        "timestamp": 1728683698986
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 320,
+                    "y": 251,
+                    "id": 58,
+                    "timeOffset": -455
+                },
+                {
+                    "x": 568,
+                    "y": 306,
+                    "id": 58,
+                    "timeOffset": -403
+                }
+            ]
+        },
+        "timestamp": 1728683698993
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 5,
+            "id": 114
+        },
+        "timestamp": 1728683700378
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 6,
+            "id": 114
+        },
+        "timestamp": 1728683700382
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 5,
+            "id": 114
+        },
+        "timestamp": 1728683700378
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 2,
+            "id": 58,
+            "x": 157,
+            "y": 233
+        },
+        "timestamp": 1728683668533
+    },
+    {
+        "type": 4,
+        "data": {
+            "href": "http://localhost:3000/",
+            "width": 1062,
+            "height": 314
+        },
+        "timestamp": 1728683580757
+    },
+    {
+        "type": 3,                      <-- eventType: obj.type (event type) 
+        "data": {
+            "source": 1,                <-- eventSource: obj.data.source (event source) 
+            "positions": [              <-- otherData : all data fields without source 
+                {
+                    "x": 812,
+                    "y": 405,
+                    "id": 58,
+                    "timeOffset": 0
+                }
+            ]
+        },
+        "timestamp": 1728683377771       <--- dateCreated: obj.timestamp (datecreated)
+    },                                   <--- id: uniqueID 
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 2,
+            "id": 58,
+            "x": 811,
+            "y": 405
+        },
+        "timestamp": 1728683377169
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 2,
+            "id": 58,
+            "x": 556,
+            "y": 261
+        },
+        "timestamp": 1728683159688
+    },
+    {
+        "type": 2,
+        "data": {
+            "node": {
+                "type": 0,
+                "childNodes": [
+                    {
+                        "type": 1,
+                        "name": "html",
+                        "publicId": "",
+                        "systemId": "",
+                        "rootId": 56,
+                        "id": 57
+                    },
+                    {
+                        "type": 2,
+                        "tagName": "html",
+                        "attributes": {
+                            "lang": "en"
+                        },
+                        "childNodes": [
+                            {
+                                "type": 2,
+                                "tagName": "script",
+                                "attributes": {
+                                    "src": "chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js",
+                                    "id": "eppiocemhmnlbhjplcgkofciiegomcon"
+                                },
+                                "childNodes": [],
+                                "rootId": 56,
+                                "id": 59
+                            },
+                            {
+                                "type": 2,
+                                "tagName": "script",
+                                "attributes": {
+                                    "src": "chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"
+                                },
+                                "childNodes": [],
+                                "rootId": 56,
+                                "id": 60
+                            },
+                            {
+                                "type": 2,
+                                "tagName": "script",
+                                "attributes": {
+                                    "src": "chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"
+                                },
+                                "childNodes": [],
+                                "rootId": 56,
+                                "id": 61
+                            },
+                            {
+                                "type": 2,
+                                "tagName": "head",
+                                "attributes": {},
+                                "childNodes": [
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 63
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "meta",
+                                        "attributes": {
+                                            "charset": "utf-8"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 64
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 65
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "link",
+                                        "attributes": {
+                                            "rel": "icon",
+                                            "href": "http://localhost:3000/favicon.ico"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 66
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 67
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "meta",
+                                        "attributes": {
+                                            "name": "viewport",
+                                            "content": "width=device-width, initial-scale=1"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 68
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 69
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "meta",
+                                        "attributes": {
+                                            "name": "theme-color",
+                                            "content": "#000000"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 70
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 71
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "meta",
+                                        "attributes": {
+                                            "name": "description",
+                                            "content": "Web site created using create-react-app"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 72
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 73
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "link",
+                                        "attributes": {
+                                            "rel": "apple-touch-icon",
+                                            "href": "http://localhost:3000/logo192.png"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 74
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 75
+                                    },
+                                    {
+                                        "type": 5,
+                                        "textContent": "\n      manifest.json provides metadata used when your web app is installed on a\n      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/\n    ",
+                                        "rootId": 56,
+                                        "id": 76
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 77
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "link",
+                                        "attributes": {
+                                            "rel": "manifest",
+                                            "href": "http://localhost:3000/manifest.json"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 78
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 79
+                                    },
+                                    {
+                                        "type": 5,
+                                        "textContent": "\n      Notice the use of  in the tags above.\n      It will be replaced with the URL of the `public` folder during the build.\n      Only files inside the `public` folder can be referenced from the HTML.\n\n      Unlike \"/favicon.ico\" or \"favicon.ico\", \"/favicon.ico\" will\n      work correctly both with client-side routing and a non-root public URL.\n      Learn how to configure a non-root public URL by running `npm run build`.\n    ",
+                                        "rootId": 56,
+                                        "id": 80
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 81
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "title",
+                                        "attributes": {},
+                                        "childNodes": [
+                                            {
+                                                "type": 3,
+                                                "textContent": "React App",
+                                                "rootId": 56,
+                                                "id": 83
+                                            }
+                                        ],
+                                        "rootId": 56,
+                                        "id": 82
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n  ",
+                                        "rootId": 56,
+                                        "id": 84
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "script",
+                                        "attributes": {
+                                            "defer": "",
+                                            "src": "http://localhost:3000/static/js/bundle.js"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 85
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "script",
+                                        "attributes": {
+                                            "bis_use": "true",
+                                            "type": "text/javascript",
+                                            "charset": "utf-8",
+                                            "data-bis-config": "[\"facebook.com/\",\"twitter.com/\",\"youtube-nocookie.com/embed/\",\"//vk.com/\",\"//www.vk.com/\",\"linkedin.com/\",\"//www.linkedin.com/\",\"//instagram.com/\",\"//www.instagram.com/\",\"//www.google.com/recaptcha/api2/\",\"//hangouts.google.com/webchat/\",\"//www.google.com/calendar/\",\"//www.google.com/maps/embed\",\"spotify.com/\",\"soundcloud.com/\",\"//player.vimeo.com/\",\"//disqus.com/\",\"//tgwidget.com/\",\"//js.driftt.com/\",\"friends2follow.com\",\"/widget\",\"login\",\"//video.bigmir.net/\",\"blogger.com\",\"//smartlock.google.com/\",\"//keep.google.com/\",\"/web.tolstoycomments.com/\",\"moz-extension://\",\"chrome-extension://\",\"/auth/\",\"//analytics.google.com/\",\"adclarity.com\",\"paddle.com/checkout\",\"hcaptcha.com\",\"recaptcha.net\",\"2captcha.com\",\"accounts.google.com\",\"www.google.com/shopping/customerreviews\",\"buy.tinypass.com\",\"gstatic.com\",\"secureir.ebaystatic.com\",\"docs.google.com\",\"contacts.google.com\",\"github.com\",\"mail.google.com\",\"chat.google.com\",\"audio.xpleer.com\",\"keepa.com\",\"static.xx.fbcdn.net\",\"sas.selleramp.com\",\"1plus1.video\",\"console.googletagservices.com\",\"//lnkd.demdex.net/\",\"//radar.cedexis.com/\",\"//li.protechts.net/\",\"challenges.cloudflare.com/\",\"ogs.google.com\"]",
+                                            "src": "chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executers/vi-tr.js"
+                                        },
+                                        "childNodes": [],
+                                        "rootId": 56,
+                                        "id": 86
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "style",
+                                        "attributes": {},
+                                        "childNodes": [
+                                            {
+                                                "type": 3,
+                                                "textContent": "body { margin: 0px; font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif; -webkit-font-smoothing: antialiased; }code { font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\", monospace; }",
+                                                "isStyle": true,
+                                                "rootId": 56,
+                                                "id": 88
+                                            }
+                                        ],
+                                        "rootId": 56,
+                                        "id": 87
+                                    }
+                                ],
+                                "rootId": 56,
+                                "id": 62
+                            },
+                            {
+                                "type": 3,
+                                "textContent": "\n  ",
+                                "rootId": 56,
+                                "id": 89
+                            },
+                            {
+                                "type": 2,
+                                "tagName": "body",
+                                "attributes": {
+                                    "__processed_62885208-29c0-48db-af71-4bb58b09807a__": "true",
+                                    "bis_register": "W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJMSU5LRURJTiI6ImRpc2FibGVkIiwiQ09ORklHIjoiZGlzYWJsZWQifSwidmVyc2lvbiI6IjIuMC4xNiIsInNjb3JlIjoyMDAxNn1d"
+                                },
+                                "childNodes": [
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 91
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "noscript",
+                                        "attributes": {},
+                                        "childNodes": [
+                                            {
+                                                "type": 3,
+                                                "textContent": "You need to enable JavaScript to run this app.",
+                                                "rootId": 56,
+                                                "id": 93
+                                            }
+                                        ],
+                                        "rootId": 56,
+                                        "id": 92
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 94
+                                    },
+                                    {
+                                        "type": 2,
+                                        "tagName": "div",
+                                        "attributes": {
+                                            "id": "root",
+                                            "bis_skin_checked": "1"
+                                        },
+                                        "childNodes": [
+                                            {
+                                                "type": 2,
+                                                "tagName": "div",
+                                                "attributes": {
+                                                    "class": "App",
+                                                    "bis_skin_checked": "1"
+                                                },
+                                                "childNodes": [
+                                                    {
+                                                        "type": 2,
+                                                        "tagName": "header",
+                                                        "attributes": {
+                                                            "class": "App-header"
+                                                        },
+                                                        "childNodes": [
+                                                            {
+                                                                "type": 2,
+                                                                "tagName": "h1",
+                                                                "attributes": {},
+                                                                "childNodes": [
+                                                                    {
+                                                                        "type": 3,
+                                                                        "textContent": "Event Tracker Demo",
+                                                                        "rootId": 56,
+                                                                        "id": 99
+                                                                    }
+                                                                ],
+                                                                "rootId": 56,
+                                                                "id": 98
+                                                            },
+                                                            {
+                                                                "type": 2,
+                                                                "tagName": "p",
+                                                                "attributes": {},
+                                                                "childNodes": [
+                                                                    {
+                                                                        "type": 3,
+                                                                        "textContent": "Start interacting with the page to trigger events!",
+                                                                        "rootId": 56,
+                                                                        "id": 101
+                                                                    }
+                                                                ],
+                                                                "rootId": 56,
+                                                                "id": 100
+                                                            },
+                                                            {
+                                                                "type": 2,
+                                                                "tagName": "button",
+                                                                "attributes": {},
+                                                                "childNodes": [
+                                                                    {
+                                                                        "type": 3,
+                                                                        "textContent": "Click Me",
+                                                                        "rootId": 56,
+                                                                        "id": 103
+                                                                    }
+                                                                ],
+                                                                "rootId": 56,
+                                                                "id": 102
+                                                            },
+                                                            {
+                                                                "type": 2,
+                                                                "tagName": "div",
+                                                                "attributes": {
+                                                                    "style": "margin-top: 20px;",
+                                                                    "bis_skin_checked": "1"
+                                                                },
+                                                                "childNodes": [
+                                                                    {
+                                                                        "type": 2,
+                                                                        "tagName": "input",
+                                                                        "attributes": {
+                                                                            "type": "text",
+                                                                            "value": "dfdfdfdfdfsfsdfsfsf",
+                                                                            "style": "margin: 5px;"
+                                                                        },
+                                                                        "childNodes": [],
+                                                                        "rootId": 56,
+                                                                        "id": 105
+                                                                    },
+                                                                    {
+                                                                        "type": 2,
+                                                                        "tagName": "input",
+                                                                        "attributes": {
+                                                                            "type": "text",
+                                                                            "value": "dfsdfsdfsdf",
+                                                                            "style": "margin: 5px;"
+                                                                        },
+                                                                        "childNodes": [],
+                                                                        "rootId": 56,
+                                                                        "id": 113
+                                                                    },
+                                                                    {
+                                                                        "type": 2,
+                                                                        "tagName": "input",
+                                                                        "attributes": {
+                                                                            "type": "text",
+                                                                            "value": "",
+                                                                            "style": "margin: 5px;"
+                                                                        },
+                                                                        "childNodes": [],
+                                                                        "rootId": 56,
+                                                                        "id": 114
+                                                                    },
+                                                                    {
+                                                                        "type": 2,
+                                                                        "tagName": "input",
+                                                                        "attributes": {
+                                                                            "type": "text",
+                                                                            "value": "",
+                                                                            "style": "margin: 5px;"
+                                                                        },
+                                                                        "childNodes": [],
+                                                                        "rootId": 56,
+                                                                        "id": 115
+                                                                    },
+                                                                    {
+                                                                        "type": 2,
+                                                                        "tagName": "input",
+                                                                        "attributes": {
+                                                                            "type": "text",
+                                                                            "value": "",
+                                                                            "style": "margin: 5px;"
+                                                                        },
+                                                                        "childNodes": [],
+                                                                        "rootId": 56,
+                                                                        "id": 116
+                                                                    }
+                                                                ],
+                                                                "rootId": 56,
+                                                                "id": 104
+                                                            },
+                                                            {
+                                                                "type": 2,
+                                                                "tagName": "button",
+                                                                "attributes": {
+                                                                    "style": "margin-top: 10px;"
+                                                                },
+                                                                "childNodes": [
+                                                                    {
+                                                                        "type": 3,
+                                                                        "textContent": "Add Input Field",
+                                                                        "rootId": 56,
+                                                                        "id": 107
+                                                                    }
+                                                                ],
+                                                                "rootId": 56,
+                                                                "id": 106
+                                                            }
+                                                        ],
+                                                        "rootId": 56,
+                                                        "id": 97
+                                                    }
+                                                ],
+                                                "rootId": 56,
+                                                "id": 96
+                                            }
+                                        ],
+                                        "rootId": 56,
+                                        "id": 95
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n    ",
+                                        "rootId": 56,
+                                        "id": 108
+                                    },
+                                    {
+                                        "type": 5,
+                                        "textContent": "\n      This HTML file is a template.\n      If you open it directly in the browser, you will see an empty page.\n\n      You can add webfonts, meta tags, or analytics to this file.\n      The build step will place the bundled scripts into the <body> tag.\n\n      To begin the development, run `npm start` or `yarn start`.\n      To create a production bundle, use `npm run build` or `yarn build`.\n    ",
+                                        "rootId": 56,
+                                        "id": 109
+                                    },
+                                    {
+                                        "type": 3,
+                                        "textContent": "\n  \n\n",
+                                        "rootId": 56,
+                                        "id": 110
+                                    }
+                                ],
+                                "rootId": 56,
+                                "id": 90
+                            }
+                        ],
+                        "rootId": 56,
+                        "id": 58
+                    }
+                ],
+                "id": 56
+            },
+            "initialOffset": {
+                "left": 0,
+                "top": 0
+            }
+        },
+        "timestamp": 1728683377171
+    },
+    {
+        "type": 4,
+        "data": {
+            "href": "http://localhost:3000/",
+            "width": 1402,
+            "height": 1028
+        },
+        "timestamp": 1728683377170
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 2,
+            "id": 58,
+            "x": 811,
+            "y": 405
+        },
+        "timestamp": 1728683377169
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 861,
+                    "y": 664,
+                    "id": 58,
+                    "timeOffset": 0
+                }
+            ]
+        },
+        "timestamp": 1728683375451
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 1,
+            "positions": [
+                {
+                    "x": 556,
+                    "y": 262,
+                    "id": 58,
+                    "timeOffset": -437
+                },
+                {
+                    "x": 556,
+                    "y": 272,
+                    "id": 58,
+                    "timeOffset": -385
+                },
+                {
+                    "x": 566,
+                    "y": 292,
+                    "id": 58,
+                    "timeOffset": -167
+                },
+                {
+                    "x": 804,
+                    "y": 278,
+                    "id": 58,
+                    "timeOffset": -115
+                },
+                {
+                    "x": 1195,
+                    "y": 332,
+                    "id": 58,
+                    "timeOffset": -62
+                }
+            ]
+        },
+        "timestamp": 1728683160177
+    },
+    {
+        "type": 3,
+        "data": {
+            "source": 2,
+            "type": 2,        subType: obj.data.type
+            "id": 58,
+            "x": 556,
+            "y": 261
+        },
+        "timestamp": 1728683159688
+    }

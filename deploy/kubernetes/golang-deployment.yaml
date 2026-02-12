@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: golang-backend
+  labels:
+    app: golang-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: golang-backend
+  template:
+    metadata:
+      labels:
+        app: golang-backend
+    spec:
+      containers:
+        - name: golang-container
+          image: golang:1.21-alpine # Replace with your Golang image
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: golang-config

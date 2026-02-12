@@ -1,0 +1,9 @@
+{
+    "serviceName": "payment-service",
+    "dbOptions": {
+        "mongodb": true,
+        "redis": false
+    },
+    "endpoint": "http://localhost",
+    "authToken": "sometokengoeshere"
+}

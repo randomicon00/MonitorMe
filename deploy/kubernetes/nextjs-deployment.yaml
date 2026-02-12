@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nextjs-app
+  labels:
+    app: nextjs-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nextjs-app
+  template:
+    metadata:
+      labels:
+        app: nextjs-app
+    spec:
+      containers:
+        - name: nextjs-container
+          image: node:20-alpine # Make sure you have built and pushed your Next.js image
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NEXT_PUBLIC_BACKEND_URL
+              value: "http://golang-backend-service:8080" # URL of the Golang backend service
