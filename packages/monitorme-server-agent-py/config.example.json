@@ -1,0 +1,9 @@
+{
+  "serviceName": "payment-service-py",
+  "dbOptions": {
+    "postgres": true,
+    "redis": false
+  },
+  "endpoint": "http://localhost:8888",
+  "authToken": "sometokengoeshere"
+}

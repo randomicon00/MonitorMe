@@ -51,7 +51,7 @@ Combine backend traces with frontend session recordings to see exactly what the 
 MonitorMe consists of four main components:
 
 1. **Client Agent** (`packages/monitorme-client-agent/`) - Browser-based rrweb collector for capturing user interactions
-2. **Server Agents** (`packages/monitorme-server-agent-js/`, `packages/monitorme-server-agent-go/`) - OpenTelemetry instrumentation for backend services
+2. **Server Agents** (`packages/monitorme-server-agent-js/`, `packages/monitorme-server-agent-go/`, `packages/monitorme-server-agent-py/`) - OpenTelemetry instrumentation for backend services
 3. **API Service** (`packages/monitorme-api/`) - Go-based API server for data ingestion and querying
 4. **Dashboard** (`packages/monitorme-dashboard/`) - Next.js frontend for visualization and analysis
 
@@ -63,6 +63,7 @@ monitorme/
 │   ├── monitorme-client-agent/      # Frontend session recording agent (rrweb)
 │   ├── monitorme-server-agent-js/   # Backend tracing middleware for Node.js
 │   ├── monitorme-server-agent-go/   # Backend tracing middleware for Go
+│   ├── monitorme-server-agent-py/   # Backend tracing middleware for Python
 │   ├── monitorme-api/               # Go API service for data ingestion
 │   └── monitorme-dashboard/         # Next.js dashboard UI
 ├── deploy/
@@ -77,6 +78,7 @@ monitorme/
 ### Prerequisites
 - Node.js 14+ (for JavaScript services)
 - Go 1.19+ (for Go services)
+- Python 3.10+ (for Python services)
 - PostgreSQL 12+ (for data storage)
 - Kubernetes (optional, for deployment)
 
@@ -113,6 +115,28 @@ app.use(applyBaggageMiddleware);
     "start": "node -r monitorme-server-agent/tracing.js index.js"
   }
 }
+```
+
+### Installing Python Server Observability Components
+
+1. **Install the Python Server Agent (local package):**
+```bash
+cd packages/monitorme-server-agent-py
+python -m pip install -e .
+```
+
+2. **Create Configuration:**
+```bash
+cp config.example.json config.json
+```
+
+3. **Initialize in FastAPI:**
+```python
+from fastapi import FastAPI
+from monitorme_server_agent_py import load_config, setup_fastapi
+
+app = FastAPI()
+setup_fastapi(app, load_config("config.json"))
 ```
 
 ### Setting Up Client Observability Features
