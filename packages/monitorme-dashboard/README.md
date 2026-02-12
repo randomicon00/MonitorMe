@@ -98,14 +98,8 @@ Analyze a session comprehensively with:
 
 ## Screenshots
 
-### Home Page
-![Home Page](images/monitorme_home.png)
-
-### Event Search
-![Event Search](images/monitorme_event_search.png)
-
-### Span Search
-![Span Search](images/monitorme_span_search.png)
+### Dashboard Home Page
+![Dashboard Home Page](https://github.com/user-attachments/assets/5d6b6996-9d33-449c-b768-dbdd46a02c97)
 
 ### Settings View
 ![Settings View](https://github.com/user-attachments/assets/eb99f4bd-0c6e-451a-ba9a-63992d7d716e)
