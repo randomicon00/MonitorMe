@@ -262,29 +262,6 @@ For detailed documentation, please refer to the following:
 - [API Service Documentation](docs/README%20service.md)
 - [User Interface Documentation](docs/README%20user%20interface.md)
 
-## Dashboard Screenshots
-
-### Dashboard Home Page
-![Dashboard Home Page](https://github.com/user-attachments/assets/5d6b6996-9d33-449c-b768-dbdd46a02c97)
-
-### Settings View
-![Settings View](https://github.com/user-attachments/assets/eb99f4bd-0c6e-451a-ba9a-63992d7d716e)
-
-### Event Issues and Errors
-![Event Issues and Errors](https://github.com/user-attachments/assets/fc26e956-62d2-48a9-b50c-243da9450fb4)
-
-### Shopping Cart Flow
-![Shopping Cart Flow](https://github.com/user-attachments/assets/2abd4589-92ab-456e-8c50-19725cf8dfda)
-
-### 404 Span Issues
-![404 Span Issues](https://github.com/user-attachments/assets/05d7ce8d-7089-4eca-872b-bfd1f3440963)
-
-### Spans Explorer
-![Spans Explorer](https://github.com/user-attachments/assets/60bfd070-1182-4fb2-8914-2f2c9bddd79f)
-
-### Trigger Routes View
-![Trigger Routes View](https://github.com/user-attachments/assets/3f154a35-4168-4027-b209-aba114de6f3c)
-
 ## Contributing
 
 We welcome contributions! Please feel free to submit a Pull Request.
