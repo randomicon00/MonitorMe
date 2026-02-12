@@ -262,6 +262,41 @@ For detailed documentation, please refer to the following:
 - [API Service Documentation](docs/README%20service.md)
 - [User Interface Documentation](docs/README%20user%20interface.md)
 
+## Dashboard Screenshots
+
+### Dashboard Screenshot 01
+![Dashboard Screenshot 01](https://github.com/user-attachments/assets/5d6b6996-9d33-449c-b768-dbdd46a02c97)
+
+### Dashboard Screenshot 02
+![Dashboard Screenshot 02](https://github.com/user-attachments/assets/ff15c03e-3f6b-4619-876b-fc52a9cdf7b9)
+
+### Dashboard Screenshot 03
+![Dashboard Screenshot 03](https://github.com/user-attachments/assets/87dfd392-eaef-4707-9e55-4d01c46a54d8)
+
+### Dashboard Screenshot 04
+![Dashboard Screenshot 04](https://github.com/user-attachments/assets/eb99f4bd-0c6e-451a-ba9a-63992d7d716e)
+
+### Dashboard Screenshot 05
+![Dashboard Screenshot 05](https://github.com/user-attachments/assets/fc26e956-62d2-48a9-b50c-243da9450fb4)
+
+### Dashboard Screenshot 06
+![Dashboard Screenshot 06](https://github.com/user-attachments/assets/2abd4589-92ab-456e-8c50-19725cf8dfda)
+
+### Dashboard Screenshot 07
+![Dashboard Screenshot 07](https://github.com/user-attachments/assets/05d7ce8d-7089-4eca-872b-bfd1f3440963)
+
+### Dashboard Screenshot 08
+![Dashboard Screenshot 08](https://github.com/user-attachments/assets/60bfd070-1182-4fb2-8914-2f2c9bddd79f)
+
+### Dashboard Screenshot 09
+![Dashboard Screenshot 09](https://github.com/user-attachments/assets/3f154a35-4168-4027-b209-aba114de6f3c)
+
+### Dashboard Screenshot 10
+![Dashboard Screenshot 10](https://github.com/user-attachments/assets/71cb03d4-65df-462e-9169-72e2cf8d0564)
+
+### Dashboard Screenshot 11
+![Dashboard Screenshot 11](https://github.com/user-attachments/assets/5cf53156-07ee-475f-b2dd-edf173a06a9d)
+
 ## Contributing
 
 We welcome contributions! Please feel free to submit a Pull Request.
